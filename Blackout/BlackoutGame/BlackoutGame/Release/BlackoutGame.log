@@ -1,0 +1,24 @@
+﻿Build started 22/11/2014 18:05:53.
+     1>Project "E:\Users\Dan\Desktop\Blackout\BlackoutGame\BlackoutGame\BlackoutGame.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\BlackoutGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(61): warning C4930: 'EventReceiverGUI guiReceiver(void)': prototyped function not called (was a variable definition intended?)
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Release\BlackoutGame.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Release\BlackoutGame.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Release\BlackoutGame.lib" /MACHINE:X86 /SAFESEH Release\EventReceiverGUI.obj
+         Release\main.obj
+         Release\EventReceiverKB.obj
+         Release\MyFPSCameraAnimator.obj
+         Generating code
+         Finished generating code
+         BlackoutGame.vcxproj -> E:\Users\Dan\Desktop\Blackout\BlackoutGame\Release\BlackoutGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\BlackoutGame.unsuccessfulbuild".
+         Touching "Release\BlackoutGame.lastbuildstate".
+     1>Done Building Project "E:\Users\Dan\Desktop\Blackout\BlackoutGame\BlackoutGame\BlackoutGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.88

@@ -1,0 +1,29 @@
+﻿Build started 14/01/2015 08:11:07.
+     1>Project "E:\Users\Dan\Desktop\Blackout\BlackoutGame\BlackoutGame\BlackoutGame.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BlackoutGame.unsuccessfulbuild".
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(91): warning C4244: 'argument' : conversion from 'int' to 'const irr::f32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(96): warning C4244: 'argument' : conversion from 'int' to 'irr::f32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(442): warning C4244: 'argument' : conversion from 'double' to 'irr::s32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(445): warning C4244: 'argument' : conversion from 'double' to 'irr::s32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(543): warning C4244: 'argument' : conversion from 'double' to 'irr::s32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(546): warning C4244: 'argument' : conversion from 'double' to 'irr::s32', possible loss of data
+     1>e:\users\dan\desktop\blackout\blackoutgame\blackoutgame\main.cpp(624): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Debug\BlackoutGame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Debug\BlackoutGame.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\Dan\Desktop\Blackout\BlackoutGame\Debug\BlackoutGame.lib" /MACHINE:X86 Debug\Door.obj
+         Debug\EventReceiver.obj
+         Debug\main.obj
+         Debug\MyCollisionAnimator.obj
+         Debug\MyFPSCameraAnimator.obj
+         BlackoutGame.vcxproj -> E:\Users\Dan\Desktop\Blackout\BlackoutGame\Debug\BlackoutGame.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\BlackoutGame.unsuccessfulbuild".
+         Touching "Debug\BlackoutGame.lastbuildstate".
+     1>Done Building Project "E:\Users\Dan\Desktop\Blackout\BlackoutGame\BlackoutGame\BlackoutGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.23

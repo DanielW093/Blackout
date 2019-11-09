@@ -1,0 +1,22 @@
+﻿Build started 13/01/2015 21:25:48.
+     1>Project "C:\apps\irrKlang-1.5.0\examples\01.HelloWorld\01.HelloWorld.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\01.HelloWorld.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\apps\irrklang-1.5.0\examples\01.helloworld\main.cpp(67): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 11.0\vc\include\conio.h(131) : see declaration of 'getch'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(1137,5): warning MSB8012: TargetPath(C:\apps\irrKlang-1.5.0\examples\01.HelloWorld\Debug\01.HelloWorld.exe) does not match the Linker's OutputFile property value (C:\apps\irrKlang-1.5.0\bin\win32-visualstudio\01.HelloWorld.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win32-visualstudio/01.HelloWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:"../../lib/win32-visualstudio" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\01.HelloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\01.HelloWorld.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         01.HelloWorld.vcxproj -> C:\apps\irrKlang-1.5.0\examples\01.HelloWorld\Debug\01.HelloWorld.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\01.HelloWorld.unsuccessfulbuild".
+         Touching "Debug\01.HelloWorld.lastbuildstate".
+     1>Done Building Project "C:\apps\irrKlang-1.5.0\examples\01.HelloWorld\01.HelloWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00
