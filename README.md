@@ -1,2 +1,2 @@
 # Blackout
-Blackout is a C++ game built in Iirlicht in 2015.
+Blackout is a C++ game built using Iirlicht in 2015.
